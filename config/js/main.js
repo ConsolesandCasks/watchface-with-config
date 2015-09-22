@@ -17,7 +17,7 @@ function submitHandler() {
 function loadOptions() {
   var $backgroundColorPicker = $('#backgroundColorPicker');
   var $foregroundColorPicker = $('#foregroundColorPicker');
-  var $timeFormatCheckbox = $('#timeFormatCheckbox');
+  var $fuzzyFormatCheckbox = $('#fuzzyFormatCheckbox');
 
   if (localStorage.backgroundColor) {
     $backgroundColorPicker[0].value = localStorage.backgroundColor;
