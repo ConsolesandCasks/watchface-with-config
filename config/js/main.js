@@ -22,7 +22,7 @@ function loadOptions() {
   if (localStorage.backgroundColor) {
     $backgroundColorPicker[0].value = localStorage.backgroundColor;
     $foregroundColorPicker[0].value = localStorage.foregroundColor;
-    $fuzzyFormatCheckbox[0].checked = localStorage.fuzzyTextFormat === 'true';
+    $fuzzyFormatCheckbox[0].checked = localStorage.fuzzyTimeFormat === 'true';
   }
 }
 
